@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/admin/Desktop/PySA-pysa-walksat 2/build/src",
+  "command": "/usr/bin/clang++  -I\"/Users/admin/Desktop/PySA-pysa-walksat 2/src/../include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.7 -O3 -Wall -Wpedantic -Wfatal-errors -o CMakeFiles/walk-sat.dir/walk-sat.cpp.o -c \"/Users/admin/Desktop/PySA-pysa-walksat 2/src/walk-sat.cpp\"",
+  "file": "/Users/admin/Desktop/PySA-pysa-walksat 2/src/walk-sat.cpp",
+  "output": "src/CMakeFiles/walk-sat.dir/walk-sat.cpp.o"
+},
+{
+  "directory": "/Users/admin/Desktop/PySA-pysa-walksat 2/build/src",
+  "command": "/usr/bin/clang++  -I\"/Users/admin/Desktop/PySA-pysa-walksat 2/src/../include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.7 -O3 -Wall -Wpedantic -Wfatal-errors -o CMakeFiles/walk-sat.x.dir/main.cpp.o -c \"/Users/admin/Desktop/PySA-pysa-walksat 2/src/main.cpp\"",
+  "file": "/Users/admin/Desktop/PySA-pysa-walksat 2/src/main.cpp",
+  "output": "src/CMakeFiles/walk-sat.x.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/admin/Desktop/PySA-pysa-walksat 2/build/tests",
+  "command": "/usr/bin/clang++  -I\"/Users/admin/Desktop/PySA-pysa-walksat 2/tests/../include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.7 -O3 -Wall -Wpedantic -Wfatal-errors -o CMakeFiles/test_walk_sat.x.dir/test_walk_sat.cpp.o -c \"/Users/admin/Desktop/PySA-pysa-walksat 2/tests/test_walk_sat.cpp\"",
+  "file": "/Users/admin/Desktop/PySA-pysa-walksat 2/tests/test_walk_sat.cpp",
+  "output": "tests/CMakeFiles/test_walk_sat.x.dir/test_walk_sat.cpp.o"
+}
+]

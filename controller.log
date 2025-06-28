@@ -1,0 +1,43 @@
+[2025-03-25 03:28:44] Initialized state file
+[2025-03-25 03:28:44] Service started
+[2025-03-25 03:28:44] Checking NPM project...
+[2025-03-25 03:28:44] No package.json found in ./web-app, skipping NPM update
+[2025-03-25 03:28:44] Updating Python dependencies...
+[2025-03-25 03:28:44] No requirements.txt found, skipping Python dependencies
+[2025-03-25 03:28:44] Starting services...
+[2025-03-25 03:28:44] All services started
+[2025-03-25 03:34:05] Service stopped
+[2025-03-25 03:34:07] Service started
+[2025-03-25 03:34:07] Checking NPM project...
+[2025-03-25 03:34:07] No package.json found in ./web-app, skipping NPM update
+[2025-03-25 03:34:07] Updating Python dependencies...
+[2025-03-25 03:34:07] No requirements.txt found, skipping Python dependencies
+[2025-03-25 03:34:07] Starting services...
+[2025-03-25 03:34:07] All services started
+[2025-03-25 03:34:21] Checking service status...
+[2025-03-25 03:34:40] Checking service status...
+[2025-03-25 03:35:00] Executing killswitch for: all
+[2025-03-25 03:35:00] All services killed and state reset
+[2025-03-25 03:35:06] Service started
+[2025-03-25 03:35:06] Checking NPM project...
+[2025-03-25 03:35:06] No package.json found in ./web-app, skipping NPM update
+[2025-03-25 03:35:06] Updating Python dependencies...
+[2025-03-25 03:35:06] No requirements.txt found, skipping Python dependencies
+[2025-03-25 03:35:06] Starting services...
+[2025-03-25 03:35:06] All services started
+[2025-03-25 03:35:12] Checking service status...
+[2025-03-25 03:42:42] Killing process on port 5000 (PID: 30577
+30579)
+[2025-03-25 03:42:42] Service started
+[2025-03-25 03:42:42] Website verified online
+[2025-03-25 03:50:32] All services killed
+[2025-03-25 03:50:38] Killing process on port 3000 (PID: 36446)
+[2025-03-25 03:50:38] Killing process on port 5000 (PID: 36426
+36452)
+[2025-03-25 03:50:38] Service started
+[2025-03-25 03:50:38] Website verified online
+[2025-03-25 04:22:04] All services killed
+[2025-03-25 04:22:09] Killing process on port 3000 (PID: 37597)
+[2025-03-25 04:22:09] Service started
+[2025-03-25 04:22:09] Website verified online
+[2025-03-25 04:22:37] All services killed

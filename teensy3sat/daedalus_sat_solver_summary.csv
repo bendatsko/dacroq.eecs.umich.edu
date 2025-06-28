@@ -1,0 +1,2 @@
+Problem Set,Avg TTS (μs),Median TTS (μs),Std Dev TTS (μs),Completion Rate,Problems Solved,Total Problems,Decomposed Problems,Min TTS (μs),Max TTS (μs),Avg Unsat Clauses,Solution Percentage
+Batch-1,112.30264700000002,19.798299999999998,363.2181400633414,98.26,100,100,0,3.3866,3243.4664000000002,0.148,98.26

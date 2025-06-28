@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .logo-base { fill: #FFFFFF; }
+      .logo-path { stroke: #000000; }
+    }
+    @media (prefers-color-scheme: light) {
+      .logo-base { fill: #000000; }
+      .logo-path { stroke: #FFFFFF; }
+    }
+  </style>
+  <!-- Base shape - adapts to theme automatically -->
+  <rect x="10" y="10" width="80" height="80" rx="16" class="logo-base"/>
+  
+  <!-- Circuit path - contrasts with base automatically -->
+  <path 
+    d="M35 35 L35 65 L65 65" 
+    class="logo-path"
+    stroke-width="12" 
+    fill="none" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+</svg>

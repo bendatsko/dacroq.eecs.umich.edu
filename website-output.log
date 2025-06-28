@@ -1,0 +1,416 @@
+
+> daqroc@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.20
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1134ms
+ ✓ Compiled /middleware in 231ms (118 modules)
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.5s (1652 modules)
+ GET /dashboard 200 in 2769ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 801ms (1692 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 865ms
+ GET /_next/webpack-hmr 404 in 824ms
+ ✓ Compiled in 181ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 12ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 6ms
+ ✓ Compiled in 129ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 8ms
+ ✓ Compiled in 122ms (1810 modules)
+ GET /dashboard 200 in 188ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 14ms
+ ✓ Compiled in 164ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 20ms
+ GET /_next/webpack-hmr 404 in 23ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 6ms
+ ✓ Compiled in 146ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 17ms
+ ✓ Compiled in 144ms (1810 modules)
+ GET /dashboard 200 in 50ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 16ms
+ ✓ Compiled in 206ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 22ms
+ GET /_next/webpack-hmr 404 in 25ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 5ms
+ ✓ Compiled in 134ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 9ms
+ ✓ Compiled in 120ms (1810 modules)
+ GET /dashboard 200 in 55ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 15ms
+ ✓ Compiled in 203ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 16ms
+ GET /_next/webpack-hmr 404 in 21ms
+ ✓ Compiled in 130ms (1810 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 8ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 7ms
+ ✓ Compiled in 115ms (1810 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 564ms (1039 modules)
+ GET /login 200 in 662ms
+ GET /login 200 in 32ms
+ ✓ Compiled / in 290ms (1029 modules)
+ GET / 307 in 359ms
+ ✓ Compiled /login in 210ms (301 modules)
+ GET /login 200 in 287ms
+ ✓ Compiled /dashboard in 332ms (909 modules)
+ GET /dashboard 200 in 545ms
+ ✓ Compiled /_not-found in 318ms (1696 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 383ms
+ GET /_next/webpack-hmr 404 in 364ms
+ ✓ Compiled in 197ms (1814 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 149ms (1814 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 12ms
+ ✓ Compiled in 134ms (1814 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 11ms
+ ✓ Compiled in 134ms (1814 modules)
+ ✓ Compiled / in 143ms (282 modules)
+ GET / 307 in 235ms
+ ✓ Compiled /login in 83ms (301 modules)
+ GET /login 200 in 152ms
+ GET /login 200 in 30ms
+ GET /login 200 in 34ms
+ GET /login 200 in 33ms
+ ✓ Compiled /dashboard in 146ms (909 modules)
+ GET /dashboard 200 in 335ms
+ ✓ Compiled /_not-found in 290ms (1696 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 355ms
+ GET /_next/webpack-hmr 404 in 303ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 7ms
+ ✓ Compiled in 193ms (1814 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 16ms
+ ✓ Compiled in 164ms (1814 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 11ms
+ ✓ Compiled in 130ms (1814 modules)
+ ✓ Compiled /login in 129ms (952 modules)
+ GET /login 200 in 179ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 9ms
+ ✓ Compiled in 151ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 55ms
+ GET /_next/webpack-hmr 404 in 60ms
+ ✓ Compiled in 133ms (1819 modules)
+ GET /login 200 in 64ms
+ GET /login 200 in 30ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 20ms
+ ✓ Compiled in 284ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 30ms
+ ✓ Compiled /dashboard in 254ms (1816 modules)
+ ✓ Compiled /_not-found in 102ms (1701 modules)
+ GET /_next/webpack-hmr 404 in 135ms
+ GET /login 200 in 49ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 292ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 40ms
+ ✓ Compiled /dashboard in 257ms (1819 modules)
+ GET /_next/webpack-hmr 404 in 332ms
+ GET /login 200 in 52ms
+ GET /login 200 in 33ms
+ GET /login 200 in 37ms
+ GET /login 200 in 34ms
+ GET /login 200 in 22ms
+ GET /login 200 in 33ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 324ms (1196 modules)
+ GET /login 200 in 100ms
+ GET /login 200 in 35ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 18ms
+ ✓ Compiled in 248ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 27ms
+ ✓ Compiled /dashboard in 260ms (1819 modules)
+ GET /_next/webpack-hmr 404 in 316ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 16ms
+ ✓ Compiled in 168ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 22ms
+ ✓ Compiled in 153ms (1819 modules)
+ GET /login 200 in 45ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 11ms
+ ✓ Compiled in 204ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 28ms
+ ✓ Compiled in 186ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 12ms
+ ✓ Compiled in 148ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 13ms
+ ✓ Compiled in 175ms (1819 modules)
+ GET /login 200 in 81ms
+ GET /login 200 in 40ms
+ GET /login 200 in 35ms
+ GET /login 200 in 40ms
+ GET /api/auth/session 200 in 31ms
+ GET /api/auth/session 200 in 17ms
+ GET /login 200 in 41ms
+ GET /login 200 in 38ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 308ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 26ms
+ ✓ Compiled /dashboard in 241ms (1816 modules)
+ ✓ Compiled /_not-found in 174ms (1701 modules)
+ GET /_next/webpack-hmr 404 in 305ms
+ GET /login 200 in 37ms
+ GET /login 200 in 40ms
+ GET /login 200 in 39ms
+ GET /login 200 in 37ms
+ GET /login 200 in 45ms
+ GET /login 200 in 34ms
+ GET /login 200 in 22ms
+ GET /login 200 in 40ms
+ GET /login 200 in 50ms
+ GET /login 200 in 41ms
+ GET /login 200 in 24ms
+ GET /login 200 in 28ms
+ GET /login 200 in 40ms
+ GET /login 200 in 24ms
+ GET /login 200 in 32ms
+ GET /api/auth/session 200 in 34ms
+ GET /api/auth/session 200 in 27ms
+ GET /login 200 in 39ms
+ ✓ Compiled /api/auth/callback/google in 182ms (333 modules)
+ GET /api/auth/callback/google?code=4%2F0AQSTgQHZxxMZhOCYsim3CVmhItpg1pQjtmd55wIyyyqf4I2y1wEPpg4OJOEmtfN0PErfwQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=umich.edu&prompt=consent 307 in 519ms
+ ✓ Compiled /dashboard in 112ms (953 modules)
+ GET /dashboard 200 in 311ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 44ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 28ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 40ms
+Successfully wrote to config file
+ GET /api/auth/session 200 in 39ms
+ ✓ Compiled /_not-found in 284ms (1821 modules)
+ GET /_next/webpack-hmr 404 in 313ms
+ GET /login 200 in 53ms
+ GET /login 200 in 37ms
+ GET /login 200 in 35ms
+ GET /login 200 in 39ms
+ GET /login 200 in 38ms
+ GET /login 200 in 39ms
+ GET /login 200 in 39ms
+ GET /login 200 in 42ms
+ GET /login 200 in 41ms
+ GET /login 200 in 37ms
+ GET /login 200 in 38ms
+ GET /login 200 in 41ms
+ GET /login 200 in 21ms
+ GET /login 200 in 39ms
+ GET /api/auth/session 200 in 25ms
+ GET /api/auth/session 200 in 12ms
+ GET /login 200 in 38ms
+ GET /api/auth/session 200 in 17ms
+ GET /api/auth/session 200 in 14ms
+ GET /login 200 in 33ms
+ GET /api/auth/session 200 in 23ms
+ GET /api/auth/session 200 in 10ms
+ GET /login 200 in 37ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 274ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 33ms
+ ✓ Compiled /dashboard in 228ms (1816 modules)
+ GET /login 200 in 84ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 15ms
+ ✓ Compiled in 285ms (1196 modules)
+ GET /login 200 in 99ms
+ GET /api/auth/session 200 in 31ms
+ GET /api/auth/session 200 in 25ms
+ GET /login 200 in 30ms
+ GET /login 200 in 20ms
+ GET /login 200 in 23ms
+ GET /login 200 in 45ms
+ GET /login 200 in 31ms
+ GET /login 200 in 23ms
+ GET /login 200 in 35ms
+ GET /login 200 in 38ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 19ms
+ ✓ Compiled in 255ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 50ms
+ ✓ Compiled /dashboard in 416ms (1819 modules)
+ GET /_next/webpack-hmr 404 in 476ms
+ GET /api/auth/session 200 in 7ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ ✓ Compiled in 142ms (1819 modules)
+ ✓ Compiled /api/auth/callback/google in 85ms (954 modules)
+ GET /api/auth/callback/google?code=4%2F0AQSTgQFlpyHtFdlYq31Q6B-dORfnADQKsQpuf1Ow3OEMurRJcJAIKHErN6O0mLQ6q-zSwA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=umich.edu&prompt=consent 307 in 359ms
+ GET /dashboard 200 in 192ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 173ms (1821 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 35ms
+ GET /_next/webpack-hmr 404 in 33ms
+ ✓ Compiled in 159ms (1821 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 15ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 11ms
+ ✓ Compiled in 199ms (1821 modules)
+ GET /login 200 in 50ms
+ GET /login 200 in 39ms
+ GET /login 200 in 36ms
+ GET /login 200 in 38ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 22ms
+ ✓ Compiled in 268ms (1196 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 33ms
+ ✓ Compiled /dashboard in 279ms (1819 modules)
+ GET /_next/webpack-hmr 404 in 339ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 23ms
+ ✓ Compiled in 173ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 29ms
+ ✓ Compiled in 165ms (1819 modules)
+ GET /login 200 in 71ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 34ms
+ GET /_next/webpack-hmr 404 in 42ms
+ ✓ Compiled in 366ms (1199 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 28ms
+ ✓ Compiled /dashboard in 238ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 21ms
+ ✓ Compiled in 164ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 23ms
+ ✓ Compiled in 148ms (1819 modules)
+ GET /dashboard 200 in 192ms
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 27ms
+ ✓ Compiled in 185ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 54ms
+ GET /_next/webpack-hmr 404 in 52ms
+ ✓ Compiled in 231ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 16ms
+ ✓ Compiled in 164ms (1819 modules)
+Writing to: /Users/admin/Documents/Production/DACROQ-3.25.1/website/config/allowed-users.ts
+Successfully wrote to config file
+ GET /api/auth/session 200 in 38ms
+ ✓ Compiled in 149ms (1819 modules)
+ ✓ Compiled /api/auth/logout in 139ms (954 modules)
+ POST /api/auth/logout 200 in 165ms
+ GET /login 200 in 57ms
+ GET /api/auth/session 200 in 20ms
+ GET /api/auth/session 200 in 16ms
+ GET /login 200 in 79ms
+ GET /api/auth/session 200 in 14ms
+ GET /api/auth/session 200 in 12ms
+ GET /login 200 in 84ms
+[?25h
