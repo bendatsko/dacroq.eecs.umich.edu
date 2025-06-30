@@ -25,17 +25,7 @@ import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
-import {
-  doc,
-  setDoc,
-  collection,
-  getDocs,
-  query,
-  orderBy,
-  limit,
-  onSnapshot,
-} from "firebase/firestore";
-import { db } from "@/lib/firebase";
+// Removed Firebase imports - using mock data instead
 import {
   Table,
   TableBody,

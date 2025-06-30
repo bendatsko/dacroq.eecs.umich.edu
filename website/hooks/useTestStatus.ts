@@ -12,7 +12,7 @@ interface Test {
     completedAt?: string;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://dacroq.eecs.umich.edu';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export function useTestStatus(testId: string | null) {
     const [test, setTest] = useState<Test | null>(null);

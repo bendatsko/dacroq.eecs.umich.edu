@@ -32,19 +32,7 @@ import {
   Shield,
   AlertTriangle
 } from "lucide-react";
-import { db } from '@/lib/firebase';
-import {
-  collection,
-  getDocs,
-  doc,
-  setDoc,
-  deleteDoc,
-  updateDoc,
-  query,
-  where,
-  orderBy,
-  serverTimestamp
-} from 'firebase/firestore';
+// Removed Firebase imports - using mock data instead
 import { ALLOWED_USERS } from '@/config/allowed-users';
 
 interface User {

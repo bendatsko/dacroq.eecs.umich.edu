@@ -340,7 +340,7 @@ export const TestDetailsPanel: React.FC<TestDetailsPanelProps> = ({
             Object.entries(plots).map(async ([key, filename]) => {
               try {
                 const plotRes = await fetch(
-                    `https://dacroq.eecs.umich.edu/interface/tests/${test.id}/files/${filename}`,
+                    `${process.env.NEXT_PUBLIC_API_URL}/interface/tests/${test.id}/files/${filename}`,
                     {
                       headers: {
                         'X-User-Email': user.email,

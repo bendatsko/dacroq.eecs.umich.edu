@@ -27,17 +27,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-import {
-  doc,
-  setDoc,
-  collection,
-  getDocs,
-  query,
-  orderBy,
-  limit,
-  onSnapshot,
-} from "firebase/firestore";
-import { db } from "@/lib/firebase";
+// Removed Firebase imports - using mock data instead
 import {
   Table,
   TableBody,

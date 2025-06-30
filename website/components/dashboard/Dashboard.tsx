@@ -17,6 +17,7 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent,
     AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import {Cpu, Trash2, ExternalLink, Loader2} from "lucide-react";
 import { useUser } from '@/lib/user-context';
+import { useAuth } from '@/lib/auth-provider';
 import {AnimatePresence, motion } from "framer-motion";
 import TestDetailsPanel from "@/app/dashboard/content/TestDetailsPanel";
 import LoadingSpinner from "@/components/LoadingSpinner";
@@ -440,7 +441,7 @@ export const DashboardContent = ({ setActiveSection }) => {
         direction: 'desc'
     });
     const [queueStatus, setQueueStatus] = useState<QueueStatus | null>(null);
-    const { user } = useUser();
+    const { user } = useAuth();
 
     const [shareDialogOpen, setShareDialogOpen] = useState(false);
     const [testToShare, setTestToShare] = useState(null);
@@ -535,7 +536,7 @@ useEffect(() => {
     useEffect(() => {
         const fetchTests = async () => {
             try {
-                const response = await fetch('https://dacroq.eecs.umich.edu/interface/tests', {
+                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/interface/tests`, {
                     headers: {
                         'Content-Type': 'application/json',
                         'X-User-Email': user.email
@@ -607,7 +608,7 @@ useEffect(() => {
 
     const handleDeleteTest = async (testId: string) => {
         try {
-            const response = await fetch(`https://dacroq.eecs.umich.edu/interface/tests/${testId}`, {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/interface/tests/${testId}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',

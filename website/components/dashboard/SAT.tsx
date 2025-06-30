@@ -68,7 +68,7 @@ import {ALLOWED_USERS} from "@/config/allowed-users";
 
 // const API_BASE_URL = 'https://dacroq.eecs.umich.edu';
 const API_BASE_URL = 'https://dacroq.eecs.umich.edu';
-
+// ${process.env.NEXT_PUBLIC_API_URL}/
 
 // Types and Interfaces
 interface Literal {
