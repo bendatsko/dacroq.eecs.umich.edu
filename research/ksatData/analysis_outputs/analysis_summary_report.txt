@@ -1,0 +1,70 @@
+K-SAT CHIP OPTIMIZATION ANALYSIS REPORT
+======================================
+Generated: 01-Jul-2025 18:48:41
+
+DATASET SUMMARY
+---------------
+Total experiments: 178300
+Operating parameters: 9 (vdd, vcm, vref, i_tia, i_bld_n, i_bld_p, i_break, i_make, i_cmp)
+Performance metrics: 7 (TTS, avgTTS, power, passRate, numPass, numRuns, stdTTS)
+
+PERFORMANCE METRICS
+-------------------
+Time to Solution (TTS):
+  Range: [0.000000, 0.110000] s
+  Mean ± Std: 0.002920 ± 0.014671 s
+  Median: 0.000003 s
+
+Pass Rate:
+  Range: [0.00%, 100.00%]
+  Mean: 97.49%
+  Points > 95%: 169988 (95.3%)
+
+OPTIMAL OPERATING POINTS
+------------------------
+
+1. BALANCED CONFIGURATION (Recommended):
+   Performance: TTS = 0.000000 s, Pass Rate = 100.00%
+   Parameters:
+     VDD = NaN
+     VCM = NaN
+     VREF = NaN
+     I_TIA = NaN
+     I_BLD_N = NaN
+     I_BLD_P = NaN
+     I_BREAK = NaN
+     I_MAKE = NaN
+     I_CMP = NaN
+
+KEY INSIGHTS
+------------
+
+Critical Parameter Thresholds (for >95% accuracy):
+  VDD: [0.900, 0.900]
+  VCM: [0.550, 0.550]
+  VREF: [0.500, 0.500]
+  I_TIA: [50.000, 60.000]
+  I_BLD_N: [3.000, 10.000]
+  I_BLD_P: [2.000, 10.000]
+  I_BREAK: [12.500, 30.000]
+  I_MAKE: [100.000, 200.000]
+  I_CMP: [25.000, 25.000]
+
+Performance Cliffs Detected:
+  I_BREAK at: 12.500 12.500 12.500 
+
+OUTPUT FILES GENERATED
+----------------------
+- analysis_outputs/summary_statistics.csv
+- analysis_outputs/optimal_operating_points.csv
+- analysis_outputs/testbench_optimal_config.csv
+- analysis_outputs/load_optimal_config.m
+- analysis_outputs/analysis_insights.mat
+- analysis_outputs/ksat_analysis_master_dashboard.png
+
+RECOMMENDATIONS
+---------------
+1. Use the balanced configuration for general operation
+2. Load optimal settings: run >> load_optimal_config
+3. Review the master dashboard for comprehensive analysis
+4. Consider parameter thresholds when tuning
