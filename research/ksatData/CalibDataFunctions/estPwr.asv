@@ -1,0 +1,32 @@
+function [power, i_make_int, i_break_int, i_bld_p_int, i_bld_n_int, i_cmp_int, i_tia_int] = estPwr(numVar, numCls, vdd, i_make, i_break, i_bld_p, i_bld_n, i_cmp, i_tia)
+  % Set leakage current
+  i_leak = 0E-6;
+
+  % Calculate hardware utilization
+  numTiles = ceil(numCls / 508);
+  numVarCols = ceil(numVar / 10);
+  numClsBanks = ceil(numCls / 254);
+
+  % Calculate internal bias currents in microamps
+  i_make_int = i_make / 20;
+  i_break_int = i_break / 20;
+  i_bld_p_int = i_bld_p / 5;
+  i_bld_n_int = i_bld_n / 5;
+  i_cmp_int = i_cmp / 5;
+  i_tia_int = i_tia / 10;
+
+  % Calculate estimated power from each source
+  leakPwr = numTiles * (vdd * i_leak);
+
+  makePwr = vdd .* ((1 + 2*numTiles + numClsBanks*numVarCols) * (i_make/5)) * 1E-6;
+  breakPwr = vdd .* ((1 + 2*numTiles + numClsBanks*numVarCols) * (i_break/5)) * 1E-6;
+
+  bldpPwr = vdd .* ((1 + numTiles*ceil(numar/4) + numVar*numClsBanks) * (i_bld_p/5)) * 1E-6;
+  bldNPwr = vdd .* ((1 + numTiles*ceil(numvar/4) + numVar*numClsBanks) * (i_bld_n/5)) * 1E-6;
+
+  cmpPwr = vdd .* ((1 + numTiles*ceil(numVar/4) + 2*numVar) * (i_cmp/5)) * 1E-6;
+  tiaPwr = vdd .* ((1 + numTiles*ceil(numvar/4)) * (i_tia/10) + 2*numVar*numClsBanks * (i_tia/5)) * 1E-6;
+
+  % Sum total power
+  power = leakPwr + makePwr + breakPwr + bldpPwr + bldNPwr + cmpPwr + tiaPwr;
+end

@@ -1,7 +1,109 @@
-.pio
+# ==========================
+# VS Code Settings
+# ==========================
 .vscode/.browse.c_cpp.db*
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-node_modules
-node_modules
+.vscode/settings.json
+
+# ==========================
+# Node.js / Next.js
+# ==========================
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# PlatformIO / Firmware
+# ==========================
+firmware/.pio/
+firmware/.vscode/
+firmware/lib/readme.txt
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+.tox/
+.cache
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==========================
+# Data & Analysis Files
+# ==========================
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+*.pdf
+data/data_out/
+data/cnfs/encoded/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# IDE
+# ==========================
+.idea/
+*.sublime-project
+*.sublime-workspace
+
