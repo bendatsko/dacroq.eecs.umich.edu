@@ -1,2 +1,0 @@
-/usr/bin/ar qc libwalk-sat.a "CMakeFiles/walk-sat.dir/walk-sat.cpp.o"
-/usr/bin/ranlib libwalk-sat.a
